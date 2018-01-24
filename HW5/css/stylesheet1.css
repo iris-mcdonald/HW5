@@ -1,0 +1,97 @@
+﻿body {
+    font-family: Arial;
+    background-color: beige;
+    width: 90%;
+    margin: 0 auto
+}
+#banner {
+    height: 200px;
+    width: 100%;
+    background-color: darkblue;
+    border-radius: 5px 10px;
+}
+h4 {
+    color: navy;
+}
+#familypic {
+    border-radius: 200px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    z-index: 10;
+}
+#navigation {
+    height: 15px;
+    width: 100%;
+    text-align: center;
+}
+.navlink {
+    display: inline;
+    margin: 5px 5px;
+}
+#lakepic {
+    float: left;
+    margin-right: 5px;
+    height: 40px;
+    width: 60px;
+}
+#beachpic {
+    float: right;
+    margin-left: 5px;
+    height: 25px;
+    width: 30px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    height: 800px;
+    background-color: antiquewhite;
+    border-radius: 5px 10px;
+    text-align: left;
+    padding: 10px;
+    box-sizing:border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* I couldn't get the following column code to work (2 examples)
+.column1of3, .column2of3, column3of3 {
+    background-color: lightgray;
+    width: 300px;
+    height: 500px; 
+    float: left;
+    margin: 5px;
+}
+*/
+/*
+.column1of3 {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    text-align: center;
+    background-color: grey;
+}
+.column2of3 {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    text-align: center;
+    background-color: grey;
+}
+.column3of3 {
+    float: left;
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    text-align: center;
+    background-color:grey;
+}
+*/
+
