@@ -7,7 +7,7 @@
 #banner {
     height: 200px;
     width: 100%;
-    background-color: darkblue;
+    background-color: cornflowerblue;
     border-radius: 5px 10px;
 }
 h4 {
@@ -29,17 +29,23 @@ h4 {
     display: inline;
     margin: 5px 5px;
 }
-#lakepic {
-    float: left;
-    margin-right: 5px;
-    height: 40px;
-    width: 60px;
-}
-#beachpic {
+#benchpic {
     float: right;
     margin-left: 5px;
-    height: 25px;
-    width: 30px;
+    height: 200px;
+    width: 300px;
+}
+#tree {
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 500px;
+    left: 75px;
+    opacity: 0.4;
+    margin: 0px 0px 0px 5px;
+}
+#travellist {
+  list-style-type: circle;
 }
 /* Create three equal columns that floats next to each other */
 .column {
@@ -47,10 +53,12 @@ h4 {
     width: 33.33%;
     height: 800px;
     background-color: antiquewhite;
-    border-radius: 5px 10px;
     text-align: left;
     padding: 10px;
     box-sizing:border-box;
+}
+.borders {
+    border-radius: 5px 10px;
 }
 
 /* Clear floats after the columns */
